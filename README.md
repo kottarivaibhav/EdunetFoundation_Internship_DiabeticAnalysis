@@ -15,17 +15,20 @@ Machine learning algorithms will be implemented to stratify diabetic patients ba
 
 <h1>Modelling & Results
 </h1>
-<br>LogisticRegression:
+<br>
+<ul>
+<li>LogisticRegression:
        - Accuracy: 76%
        - Inference: This model stands out with the highest accuracy among all the tested            
-          models.
-K-Nearest Neighbors (KNN):
+          models.</li>
+<li>xK-Nearest Neighbors (KNN):
         - Accuracy: 69.4%
         - Inference: KNN gave the lowest accuracy. Further investigation or tuning might be           
-           needed to improve its performance.
+           needed to improve its performance.</li>
 Random Forest and Decision Tree:
         - Inference: Random Forest and Decision Tree show potential but may benefit from           
           tuning. Consider adjusting hyper parameters for better results.
 Additional Metrics:
         - Additional Results can be obtained from the graph
 
+</ul>
