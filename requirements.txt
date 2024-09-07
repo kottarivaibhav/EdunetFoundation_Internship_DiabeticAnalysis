@@ -4,11 +4,5 @@ numpy
 pandas
 scikit-learn
 gunicorn
-blinker
-click
-colorama
-itsdangerous
+
 Jinja2
-MarkupSafe
-packaging
-Werkzeug
