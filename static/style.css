@@ -1,0 +1,138 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Container to center the content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+/* Form Styling */
+form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 0 auto; /* Center the form */
+}
+
+/* Styling the inputs */
+input[type="number"], input[type="submit"] {
+    width: 90%;
+    padding: 8px;
+    
+    margin-right:2px ;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Hover effects on input fields */
+input[type="number"]:hover {
+    border-color: #007BFF;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Button styling */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    justify-content: center;
+    padding: 10px; /* Adjust padding for the button */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Result Page Styling */
+.result-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.result-container p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Back link */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Header Styling */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+header .header-content h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header .header-content p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f0f4f7;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 14px;
+    color: #555;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

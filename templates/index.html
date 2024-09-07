@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h2>Welcome to the Diabetes Prediction App</h2>
+            <p>Enter your details to know your prediction!</p>
+        </div>
+    </header>
+
+    <!-- Main Content Section (Form) -->
+    <div class="container">
+        <form action="/predict" method="POST">
+            <h1>Diabetes Prediction</h1>
+            <label for="pregnancies">Pregnancies:</label><br>
+            <input type="number" step="any" name="pregnancies" placeholder="--1--"><br>
+
+            <label for="glucose">Glucose:</label><br>
+            <input type="number" step="any" name="glucose" placeholder="--85--"><br>
+
+            <label for="bloodpressure">Blood Pressure:</label><br>
+            <input type="number" step="any" name="bloodpressure" placeholder="--66--"><br>
+
+            <label for="skinthickness">Skin Thickness:</label><br>
+            <input type="number" step="any" name="skinthickness" placeholder="--29--"><br>
+
+            <label for="insulin">Insulin:</label><br>
+            <input type="number" step="any" name="insulin" placeholder="--0--"><br>
+
+            <label for="bmi">BMI:</label><br>
+            <input type="number" step="any" name="bmi" placeholder="--26.6--"><br>
+
+            <label for="diabetespedigreefunction">Diabetes Pedigree Function:</label><br>
+            <input type="number" step="any" name="diabetespedigreefunction" placeholder="--0.351--"><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" step="any" name="age" placeholder="--31--"><br>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Developed by <a href="https://www.linkedin.com/in/vaibhavkottari/" target="_blank">Vaibhav Kottari</a></p>
+    </footer>
+</body>
+</html>
